@@ -15,7 +15,7 @@ public class HealthController {
         return Map.of(
                 "status", "IQ Banking Core is RUNNING",
                 "timestamp", LocalDateTime.now().toString(),
-                "message", "Day 1 Setup Complete!",
+                "message", "Hello from Arislan's banking app! Day 1 Setup Complete!",
                 "database", "MySQL 8.0.45"
         );
     }
